@@ -6,7 +6,7 @@ function App() {
   return (
 
       <div className="base">
-          <PortfolioContainer></PortfolioContainer>
+          <PortfolioContainer/>
       </div>
 
   );

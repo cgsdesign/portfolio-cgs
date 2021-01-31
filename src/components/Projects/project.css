@@ -1,0 +1,35 @@
+.cardsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+.card {
+    background: whitesmoke;
+    margin:20px;
+    flex:1;
+    min-width: 400px;
+    box-shadow: 10px 10px 5px grey;
+    text-align:center;
+}
+
+.cardimg{
+    width:100%;
+    overflow: hidden;
+    max-height:200px;
+}
+.cardimg img {
+    width:104%;
+    border-radius: 0px;
+    height:100%;
+}
+
+.overflow {
+    padding: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .card {
+      min-width: 270px;
+    }
+    
+    } 

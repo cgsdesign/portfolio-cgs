@@ -7,7 +7,7 @@ return (
 <header>
 <div className="logozone">
 <img src={logo} alt="logo"/>
-<h2>CG Sibey Design</h2>
+<h2>CG Sibley Design</h2>
 </div>
 <Navtabs currentPage={props.currentPage} handlePageChange={props.handlePageChange}></Navtabs>
 </header>

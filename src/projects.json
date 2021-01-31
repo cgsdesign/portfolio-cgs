@@ -5,7 +5,7 @@
         "project": "HowTo.Help",
         "github": "https://github.com/geigea84/how-to-dot-help",
         "live": "https://how-to-dot-help.herokuapp.com/",
-        "image": "./assets/images/portfolio/HowToHelp.png",
+        "image": "HowToHelp.png",
         "description": "How-To-Dot-Help is a website portal connecting potential volunteers with smaller organizations that are looking for the additional help. Users can learn about connected non-for-profits, create bios and send their information to NFPs they want to voluteer for. The site features a MySQL database and two portals based on admin and general user logins.",
         "focus": "Full Stack"
     },
@@ -14,7 +14,7 @@
         "project": "TableTop Rulers",
         "github": "https://github.com/cgsdesign/table-top-resource",
         "live": "https://cgsdesign.github.io/table-top-resource/",
-        "image": "./assets/images/portfolio/DnD.png",
+        "image": "DnD.png",
         "description": "This Dungeons & Dragons one stop shop provides everything from rules and resources to world building, dice rolling, and scheduling tools needs for GM play.",
         "focus": "Front End"
     },
@@ -23,7 +23,7 @@
         "project": "TableTop Rulers - Map",
         "github": "https://github.com/cgsdesign/table-top-resource",
         "live": "https://cgsdesign.github.io/table-top-resource/maps.html",
-        "image": "./assets/images/portfolio/dndmap.png",
+        "image": "dndmap.png",
         "description": "A fun interactive map for live game play and game play prep made with JS HTMP and CSS.",
         "focus": "Front End Interactive"
     },
@@ -32,7 +32,7 @@
         "project": "Daily Planner",
         "github": "https://github.com/cgsdesign/DailyPlanner",
         "live": "https://cgsdesign.github.io/DailyPlanner/",
-        "image": "./assets/images/portfolio/dailyPlanner.png",
+        "image": "dailyPlanner.png",
         "description": "A Simple site to help you schedule your day.",
         "focus": "Front End"
     },
@@ -41,7 +41,7 @@
         "project": "Routes for Pizza Hunt",
         "github": "https://github.com/cgsdesign/pizza-hunt",
         "live": "https://pure-fjord-98565.herokuapp.com/",
-        "image": "./assets/images/portfolio/pizzahunt.png",
+        "image": "pizzahunt.png",
         "description": "Created backend using Node.js, MongoDB, Express and Mongoose for a pizza lover's chat site.",
         "focus":"Backend with MongoDB" 
     },
@@ -50,7 +50,7 @@
         "project": "Budget Tracker Conversion",
         "github": "https://github.com/cgsdesign/budget-tracker",
         "live": "https://floating-fortress-49753.herokuapp.com/",
-        "image": "./assets/images/portfolio/budgettracker.png",
+        "image": "budgettracker.png",
         "description": "Worked with IndexedDB, Service-Worker, Manifest, MongoDB Atlas and Heroku to make the existing BudgetTracker code into a live PWA with offline capabilities hosted on Heroku.",
         "focus":"PWA with IndexedDB" 
     },
@@ -59,16 +59,16 @@
         "project": "This Site",
         "github": "https://github.com/cgsdesign/portfolio-cgs",
         "live": "https://cgsdesign.github.io/portfolio-cgs/",
-        "image": "./assets/images/portfolio/cgsibleydesign.png",
+        "image": "cgsibleydesign.png",
         "description": "What you see here brought to you by React.js.",
         "focus":"React Front End" 
     },
     {
         "id": 8,
-        "project": "Basic Portfolio Site",
+        "project": "A Basic Portfolio",
         "github": "https://github.com/cgsdesign/portfolio",
         "live": "https://cgsdesign.github.io/portfolio/",
-        "image": "./assets/images/portfolio/basicportfolio.png",
+        "image": "basicportfolio.png",
         "description": "Simple CSS and HTML site, because sometimes that is all you need.",
         "focus":"Front End" 
     }
