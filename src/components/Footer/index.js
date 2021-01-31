@@ -5,7 +5,7 @@ import github from "../../assets/images/github.png"
 function Footer() {
     return (
         <footer>
-            <a href="https://github.com/cgsdesign" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/catherine-sibley-93677926/" target="_blank" rel="noreferrer">
                 <img alt="linkedin link" src={linkedin} />
             </a>
             <a href="https://github.com/cgsdesign" target="_blank" rel="noreferrer">

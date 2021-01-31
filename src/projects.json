@@ -20,6 +20,15 @@
     },
     {
         "id": 3,
+        "project": "TableTop Rulers - Map",
+        "github": "https://github.com/cgsdesign/table-top-resource",
+        "live": "https://cgsdesign.github.io/table-top-resource/maps.html",
+        "image": "./assets/images/portfolio/dndmap.png",
+        "description": "A fun interactive map for live game play and game play prep made with JS HTMP and CSS.",
+        "focus": "Front End Interactive"
+    },
+    {
+        "id": 4,
         "project": "Daily Planner",
         "github": "https://github.com/cgsdesign/DailyPlanner",
         "live": "https://cgsdesign.github.io/DailyPlanner/",
@@ -28,7 +37,7 @@
         "focus": "Front End"
     },
     {
-        "id": 4,
+        "id": 5,
         "project": "Routes for Pizza Hunt",
         "github": "https://github.com/cgsdesign/pizza-hunt",
         "live": "https://pure-fjord-98565.herokuapp.com/",
@@ -37,7 +46,7 @@
         "focus":"Backend with MongoDB" 
     },
     {
-        "id": 5,
+        "id": 6,
         "project": "Budget Tracker Conversion",
         "github": "https://github.com/cgsdesign/budget-tracker",
         "live": "https://floating-fortress-49753.herokuapp.com/",
@@ -46,12 +55,22 @@
         "focus":"PWA with IndexedDB" 
     },
     {
-        "id": 6,
+        "id": 7,
         "project": "This Site",
         "github": "https://github.com/cgsdesign/portfolio-cgs",
         "live": "https://cgsdesign.github.io/portfolio-cgs/",
         "image": "./assets/images/portfolio/cgsibleydesign.png",
         "description": "What you see here brought to you by React.js.",
         "focus":"React Front End" 
-    }   
+    },
+    {
+        "id": 8,
+        "project": "Basic Portfolio Site",
+        "github": "https://github.com/cgsdesign/portfolio",
+        "live": "https://cgsdesign.github.io/portfolio/",
+        "image": "./assets/images/portfolio/basicportfolio.png",
+        "description": "Simple CSS and HTML site, because sometimes that is all you need.",
+        "focus":"Front End" 
+    }
+       
 ]
