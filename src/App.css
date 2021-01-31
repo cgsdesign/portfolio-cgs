@@ -43,9 +43,6 @@ h4 {
   font-size: calc(14px + 1vmin);
   font-weight: 500;
 }
-main img {
-  border-radius: 50%;
-}
 button {
   font-size: calc(14px + 1vmin);
   font-weight: 400; 
