@@ -6,6 +6,15 @@ header {
     align-items: center;
     background-color:whitesmoke;
 }
+.logozone {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:whitesmoke;
+}
+img {
+    padding-right: 10px;
+}
 
 header h2 {
   color: var(--orange);
@@ -31,7 +40,7 @@ nav ul{
 .nav-item {
     margin: 0 14px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     border: 2px solid whitesmoke;
     display: inline;
 }

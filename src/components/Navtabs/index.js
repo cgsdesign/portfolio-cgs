@@ -1,10 +1,10 @@
-import './style.css';
+//import './style.css';
+//import logo from './logo.png';
 
-function NavTabs(props) {
+function Navtabs(props) {
   const tabs = ['Home', 'About', 'Works', 'Contact'];
   return (
-    <header>
-      <h2>CG Sibey Design</h2>
+    <div>
       <ul className="nav nav-tabs">
         {tabs.map(tab => (
           <li className="nav-item" key={tab}>
@@ -20,8 +20,8 @@ function NavTabs(props) {
           </li>
         ))}
       </ul>
-    </header>
+    </div>
   );
 }
 
-export default NavTabs;
+export default Navtabs;

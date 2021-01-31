@@ -1,0 +1,19 @@
+footer {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right:0;
+    text-align: center;
+    padding:10px;
+    color: orange;
+    width:100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    max-width:70px;
+    padding: 0px 10px;
+}

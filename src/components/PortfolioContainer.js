@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs/NavTabs';
+import Header from './Header';
 import Home from './Home';
 import About from './About';
 import Works from './Works';
 import Contact from './Contact';
+import Footer from './Footer';
 
 function Portfolio() {
   const [currentPage, handlePageChange] = useState('Home');
@@ -25,13 +26,16 @@ function Portfolio() {
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div>
-        {
-          // Render the component returned by 'renderPage()'
-          renderPage(currentPage)
-        }
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div className="background">
+        <main className="background-box">
+          {
+            // Render the component returned by 'renderPage()'
+            renderPage(currentPage)
+          }
+        </main>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
