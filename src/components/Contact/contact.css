@@ -1,0 +1,27 @@
+.contact-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact-content img{
+    width:100%;
+    padding:20px;
+    margin: auto;
+}
+ 
+input {
+     width: 100%;
+     padding: 10px;
+     font-size: 16px;
+ }
+
+ textarea {
+    width: 100%;
+    padding: 10px;
+ }
+
+ .form-bar {
+     padding: 5px 0px 20px 0px;
+ }

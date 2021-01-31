@@ -5,10 +5,10 @@ import github from "../../assets/images/github.png"
 function Footer() {
     return (
         <footer>
-            <a href="https://github.com/cgsdesign" target="_blank">
+            <a href="https://github.com/cgsdesign" target="_blank" rel="noreferrer">
                 <img alt="linkedin link" src={linkedin} />
             </a>
-            <a href="https://github.com/cgsdesign" target="_blank">
+            <a href="https://github.com/cgsdesign" target="_blank" rel="noreferrer">
                 <img alt="github link" src={github} />
             </a>   
         </footer>

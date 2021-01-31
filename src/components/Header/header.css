@@ -5,6 +5,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     background-color:whitesmoke;
+    min-width: 100%;
 }
 .logozone {
     display: flex;
@@ -29,7 +30,7 @@ header a{
 header nav{
     margin: 7px 0;
 }
-nav ul{
+.nav-tabs{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -52,4 +53,14 @@ nav ul{
     border-radius:3px;
     padding:10px;
 
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        text-align: center;
+        justify-content: center;
+    }
+    .nav-tabs{
+        justify-content: center;
+}
 }
