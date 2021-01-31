@@ -15,7 +15,7 @@ function Portfolio() {
     switch (currentPage) {
       case 'About': 
         return <About/>;
-      case 'Blog':
+      case 'Works':
         return <Works/>;
       case 'Contact':
         return <Contact />;
