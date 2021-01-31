@@ -2,6 +2,7 @@
 //import logo from './logo.png';
 
 function Navtabs(props) {
+
   const tabs = ['Home', 'About', 'Works', 'Contact'];
   return (
     <div>

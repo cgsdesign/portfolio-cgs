@@ -1,7 +1,9 @@
 import React from "react";
+import portrait from "../../assets/images/self-portrait-sqr.jpg"
 
 const Contact = () => (
   <div>
+    <img src={portrait} alt="Image of Catherine Sibley"></img>
     <h1>Contact Page</h1>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
