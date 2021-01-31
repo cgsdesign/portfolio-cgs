@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import Header from './Header';
-import Home from './Home';
+import Resume from './Resume';
 import About from './About';
 import Works from './Works';
 import Contact from './Contact';
 import Footer from './Footer';
 
 function Portfolio() {
-  const [currentPage, handlePageChange] = useState('Home');
+  const [currentPage, handlePageChange] = useState('About');
 
   const renderPage = () => {
     // Add a switch statement that will return the appropriate component of the 'currentPage'
@@ -20,7 +20,7 @@ function Portfolio() {
       case 'Contact':
         return <Contact />;
       default:
-        return <Home />;
+        return <Resume />;
     }
   };
 

@@ -1,0 +1,12 @@
+.about-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .about-content img{
+      width:100%;
+    padding:20px;
+    margin: auto;
+  }

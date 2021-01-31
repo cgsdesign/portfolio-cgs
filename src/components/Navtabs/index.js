@@ -3,7 +3,7 @@
 
 function Navtabs(props) {
 
-  const tabs = ['Home', 'About', 'Works', 'Contact'];
+  const tabs = ['About', 'Works', 'Resume', 'Contact'];
   return (
     <div>
       <ul className="nav nav-tabs">

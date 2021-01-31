@@ -15,13 +15,17 @@
 /* general*/
 body {
   font-family: 'Open Sans', 'Gill Sans', sans-serif;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
+p {
+  padding-bottom:10px;
+}
 h1 {
   font-family: 'Barlow Condensed', sans-serif;
   color: var(--orange);
   font-size: 44px;
+  padding-bottom: 15px;
 }
 h2 {
   font-family: 'Barlow Condensed', sans-serif;
@@ -36,10 +40,12 @@ h3 {
 h4 {
   font-family: 'Barlow Condensed', sans-serif;
   color: var(--orange);
-  font-size: 16px;
-  font-weight: 400;
+  font-size: calc(14px + 1vmin);
+  font-weight: 500;
 }
-
+img {
+  border-radius: 50%;
+}
 button {
   font-size: calc(14px + 1vmin);
   font-weight: 400; 
@@ -47,7 +53,7 @@ button {
   color: white;
   background: var(--orange); 
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 button:hover {
   font-weight: 400; 
@@ -58,6 +64,9 @@ button:hover {
   border-radius: 3px;
 }
 
+main {
+  margin-bottom:80px;
+}
 .center {
   padding:0 20px;
 }
@@ -70,12 +79,22 @@ button:hover {
 .background-box {
   background: rgba(250, 250, 250, .8);
   color: black;
-  padding: 20px;
+  padding: 30px;
 }
 
 .pad {
   padding:20px 20px 20px 20px;
 }
+.padlr {
+  padding: 0px 40px 0px 40px;
+}
+.padtb {
+  padding: 20px 0px;
+}
+.pad-l {
+  padding-left: 10px;
+}
+
 
 .w-6 {
   flex:1;
@@ -89,6 +108,10 @@ button:hover {
  @media only screen and (max-width: 1000px) {
 .w-9 {
   flex: 1;
+}
+
+.padlr {
+  padding: 0px 20px 0px 20px;
 }
 } 
 
