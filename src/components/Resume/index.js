@@ -1,6 +1,6 @@
 import React from "react";
-import resume from "../../assets/Resume/resume.pdf"
-import gdportfolio from "../../assets/Resume/gd-portfolio.pdf"
+import resume from "../../assets/resume/resume.pdf"
+import gdportfolio from "../../assets/resume/gd-portfolio.pdf"
 import "./resume.css"
 
 const Home = () => (
@@ -24,9 +24,13 @@ const Home = () => (
             Oil Painting, Pen and Ink, Graphite, Water Color, Wood, Ceramics, Computer Generated Painting, Woodworking
           </p>
           <br></br>
-          <button href={resume}>Download Full Resume</button>
+          <a href={resume} target="_blank" rel="noreferrer">
+            <button>Download Full Resume</button>
+          </a>
           {' '} 
-          <button href={gdportfolio}>Download Full Design Portfolio</button>
+          <a href={gdportfolio} target="_blank" rel="noreferrer">
+            <button>Download Full Design Portfolio</button>
+          </a>
   </section>
 );
 
