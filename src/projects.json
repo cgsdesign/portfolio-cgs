@@ -1,0 +1,57 @@
+
+[
+    {
+        "id": 1,
+        "project": "HowTo.Help",
+        "github": "https://github.com/geigea84/how-to-dot-help",
+        "live": "https://how-to-dot-help.herokuapp.com/",
+        "image": "./assets/images/portfolio/HowToHelp.png",
+        "description": "How-To-Dot-Help is a website portal connecting potential volunteers with smaller organizations that are looking for the additional help. Users can learn about connected non-for-profits, create bios and send their information to NFPs they want to voluteer for. The site features a MySQL database and two portals based on admin and general user logins.",
+        "focus": "Full Stack"
+    },
+    {
+        "id": 2,
+        "project": "TableTop Rulers",
+        "github": "https://github.com/cgsdesign/table-top-resource",
+        "live": "https://cgsdesign.github.io/table-top-resource/",
+        "image": "./assets/images/portfolio/DnD.png",
+        "description": "This Dungeons & Dragons one stop shop provides everything from rules and resources to world building, dice rolling, and scheduling tools needs for GM play.",
+        "focus": "Front End"
+    },
+    {
+        "id": 3,
+        "project": "Daily Planner",
+        "github": "https://github.com/cgsdesign/DailyPlanner",
+        "live": "https://cgsdesign.github.io/DailyPlanner/",
+        "image": "./assets/images/portfolio/dailyPlanner.png",
+        "description": "A Simple site to help you schedule your day.",
+        "focus": "Front End"
+    },
+    {
+        "id": 4,
+        "project": "Routes for Pizza Hunt",
+        "github": "https://github.com/cgsdesign/pizza-hunt",
+        "live": "https://pure-fjord-98565.herokuapp.com/",
+        "image": "./assets/images/portfolio/pizzahunt.png",
+        "description": "Created backend using Node.js, MongoDB, Express and Mongoose for a pizza lover's chat site.",
+        "focus":"Backend with MongoDB" 
+    },
+    {
+        "id": 5,
+        "project": "Budget Tracker Conversion",
+        "github": "https://github.com/cgsdesign/budget-tracker",
+        "live": "https://floating-fortress-49753.herokuapp.com/",
+        "image": "./assets/images/portfolio/budgettracker.png",
+        "description": "Worked with IndexedDB, Service-Worker, Manifest, MongoDB Atlas and Heroku to make the existing BudgetTracker code into a live PWA with offline capabilities hosted on Heroku.",
+        "focus":"PWA with IndexedDB" 
+    },
+    {
+        "id": 6,
+        "project": "This Site",
+        "github": "https://github.com/cgsdesign/portfolio-cgs",
+        "live": "https://cgsdesign.github.io/portfolio-cgs/",
+        "image": "./assets/images/portfolio/cgsibleydesign.png",
+        "description": "What you see here brought to you by React.js.",
+        "focus":"React Front End" 
+    }   
+]
