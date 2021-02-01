@@ -41,12 +41,15 @@
 }
 
 .cardoverflowing{
-    width:110%;
+    width:106%;
     height:200px;
 }
 
 .overflow {
     padding: 20px;
+}
+a :hover{
+    color: #e05e00;
 }
 @media only screen and (max-width: 1000px) {
     .card {

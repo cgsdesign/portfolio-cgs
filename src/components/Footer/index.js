@@ -1,6 +1,7 @@
 import "./footer.css"
 import linkedin from "../../assets/images/linkedin.png"
 import github from "../../assets/images/github.png"
+import codepen from "../../assets/images/codepen.png"
 
 function Footer() {
     return (
@@ -10,6 +11,9 @@ function Footer() {
             </a>
             <a href="https://github.com/cgsdesign" target="_blank" rel="noreferrer">
                 <img alt="github link" src={github} />
+            </a>   
+            <a href="https://codepen.io/cgsdesign" target="_blank" rel="noreferrer">
+                <img alt="github link" src={codepen} />
             </a>   
         </footer>
     )
