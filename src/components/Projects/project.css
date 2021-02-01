@@ -4,23 +4,45 @@
     justify-content: space-between;
     list-style: none;
 }
-.card {
+.carded {
     background: whitesmoke;
     margin:20px;
     flex:1;
-    min-width: 400px;
-    box-shadow: 10px 10px 5px grey;
+    padding: 0px;
+    min-width: 300px;
+    box-shadow: 5px 5px 7px grey;
     text-align:center;
 }
-
-.cardimg{
+.orange{
+    background-color: orange;
     width:100%;
-    overflow: hidden;
-    max-height:200px;
+    padding: 5px;
+    color:white;
 }
-.cardimg img {
-    width:102%;
-    height:100%;
+.bottom{
+    position: relative;
+    bottom:0;
+    left: 0;
+    right:0;
+    background-color: black;
+    color: white;
+    padding:5px 5px 0px 5px;
+    font-size:16px;
+}
+.cardimg{
+    overflow: hidden;
+    height:200px;
+    margin: auto;
+    padding:0px;
+    background-color:black;
+}
+.cardimg :hover{
+    opacity:.89
+}
+
+.cardoverflowing{
+    width:110%;
+    height:200px;
 }
 
 .overflow {
@@ -32,3 +54,17 @@
     }
     
     } 
+
+
+    @-moz-keyframes spin {
+        from { -moz-transform: rotate(0deg); }
+        to { -moz-transform: rotate(360deg); }
+    }
+    @-webkit-keyframes spin {
+        from { -webkit-transform: rotate(0deg); }
+        to { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes spin {
+        from {transform:rotate(0deg);}
+        to {transform:rotate(360deg);}
+    }

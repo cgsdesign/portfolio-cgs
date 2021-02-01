@@ -14,19 +14,25 @@ function Project() {
     return(
         <div className="cardsection">
             {projectList.map(project =>
-            <div className="card" key={project.id}>
-                <div className="cardimg">
-                    <img src={require(`../../assets/images/portfolio/${project.image}`).default} alt={project.project}/>
-                </div>
+            <div className="carded" key={project.id}>
+                <a href={project.live} target="_blank" rel="noreferrer">
+                        <div className="cardimg">
+                            <div className="cardoverflowing">
+                            <img src={require(`../../assets/images/portfolio/${project.image}`).default} alt={project.project}/>
+                            </div>
+                        </div>
+                </a>
+                <h3 className="orange">{project.project}</h3>
                 <div className="overflow">
-                    <h3>{project.project}</h3>
                     <a href={project.github} target="_blank" rel="noreferrer">
                     <h4>github link</h4>
                     </a>
                     <a href={project.live} target="_blank" rel="noreferrer">
                     <h4>live site</h4>
                     </a>
-                    <p>{project.focus}</p>
+                </div>
+                <div className="bottom">
+                        <p>{project.focus}</p>
                 </div>
             </div>
                 )}
