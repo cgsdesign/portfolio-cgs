@@ -2,12 +2,12 @@
 [
     {
         "id": 1,
-        "project": "HowTo.Help",
-        "github": "https://github.com/geigea84/how-to-dot-help",
-        "live": "https://how-to-dot-help.herokuapp.com/",
-        "image": "HowToHelp.png",
-        "description": "How-To-Dot-Help is a website portal connecting potential volunteers with smaller organizations that are looking for the additional help. Users can learn about connected non-for-profits, create bios and send their information to NFPs they want to voluteer for. The site features a MySQL database and two portals based on admin and general user logins.",
-        "focus": "Full Stack"
+        "project": "Woodland Consulting LLC",
+        "github": "https://github.com/SMKrizan/WoodlandConsultingLLC",
+        "live": "https://woodland-consulting.herokuapp.com/",
+        "image": "WoodlandConsulting.png",
+        "description": "MERN PWA with ReactSpring, JWT and Hidden Admin Backend",
+        "focus":"MERN Stack" 
     },
     {
         "id": 2,
@@ -29,12 +29,12 @@
     },
     {
         "id": 4,
-        "project": "Daily Planner",
-        "github": "https://github.com/cgsdesign/DailyPlanner",
-        "live": "https://cgsdesign.github.io/DailyPlanner/",
-        "image": "dailyPlanner.png",
-        "description": "A Simple site to help you schedule your day.",
-        "focus": "Front End"
+        "project": "HowTo.Help",
+        "github": "https://github.com/geigea84/how-to-dot-help",
+        "live": "https://how-to-dot-help.herokuapp.com/",
+        "image": "HowToHelp.png",
+        "description": "How-To-Dot-Help is a website portal connecting potential volunteers with smaller organizations that are looking for the additional help. Users can learn about connected non-for-profits, create bios and send their information to NFPs they want to voluteer for. The site features a MySQL database and two portals based on admin and general user logins.",
+        "focus": "Full Stack"
     },
     {
         "id": 5,
@@ -56,12 +56,12 @@
     },
     {
         "id": 7,
-        "project": "This Site",
-        "github": "https://github.com/cgsdesign/portfolio-cgs",
-        "live": "https://cgsdesign.github.io/portfolio-cgs/",
-        "image": "cgsibleydesign.png",
-        "description": "What you see here brought to you by React.js.",
-        "focus":"React Front End" 
+        "project": "Daily Planner",
+        "github": "https://github.com/cgsdesign/DailyPlanner",
+        "live": "https://cgsdesign.github.io/DailyPlanner/",
+        "image": "dailyPlanner.png",
+        "description": "A Simple site to help you schedule your day.",
+        "focus": "Front End"
     },
     {
         "id": 8,

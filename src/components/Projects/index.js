@@ -1,20 +1,30 @@
 //import React, { useState } from 'react';
 import projects from '../../projects.json';
 import "./project.css"
-//import image from "../../assets/images"
-//create styling for one module
-//create array of information
-        //Image, Title, Link to Deployed Site, Link to Github, (optional description)
-// map over array and insert in the information for the modules
+import { useSpring, animated } from 'react-spring'
+
 
 function Project() {
     const [projectList] = [projects]
     //const [projectList] = useState(projects)
+//     const items = range(4)
+// const interp = i => r => `translate3d(0, ${15 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px, 0)`
+
+  const propsMove2 = useSpring({
+        opacity: 1,
+        from: { scale: 10, transform: "scale(0.5)" },
+        to: { scale: 150, transform: "scale(1)", freq: "0.0, 0.0" },
+        config: { duration: 1000 },
+      });
+
+      const [{ y, color }, set] = useSpring(() => ({ y: 100, color: "#fff" }));
+
 
     return(
         <div className="cardsection">
             {projectList.map(project =>
             <div className="carded" key={project.id}>
+                            <animated.div style={propsMove2} >
                 <a href={project.live} target="_blank" rel="noreferrer">
                         <div className="cardimg">
                             <div className="cardoverflowing">
@@ -34,6 +44,7 @@ function Project() {
                 <div className="bottom">
                         <p>{project.focus}</p>
                 </div>
+                </animated.div>
             </div>
                 )}
         </div>
