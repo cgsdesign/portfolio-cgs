@@ -46,5 +46,16 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
+  },
+  "description": "![license](https://img.shields.io/badge/MIT-License-brightgreen) <br>  [View Live App Here](https://cgsdesign.github.io/portfolio-cgs) <br>  [Github](https://github.com/cgsdesign/portfolio-cgs)",
+  "main": "craco.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgsdesign/portfolio-cgs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgsdesign/portfolio-cgs/issues"
   }
 }

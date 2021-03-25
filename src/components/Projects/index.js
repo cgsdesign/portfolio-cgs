@@ -1,7 +1,7 @@
 //import React, { useState } from 'react';
 import projects from '../../projects.json';
 import "./project.css"
-import { useSpring, animated } from 'react-spring'
+import { useSpring, animated, animated as a } from 'react-spring'
 
 
 function Project() {
@@ -19,19 +19,30 @@ function Project() {
 
       const [{ y, color }, set] = useSpring(() => ({ y: 100, color: "#fff" }));
 
-
+    //   href={project.live} target="_blank" rel="noreferrer"
     return(
         <div className="cardsection">
             {projectList.map(project =>
             <div className="carded" key={project.id}>
                             <animated.div style={propsMove2} >
-                <a href={project.live} target="_blank" rel="noreferrer">
-                        <div className="cardimg">
-                            <div className="cardoverflowing">
-                            <img src={require(`../../assets/images/portfolio/${project.image}`).default} alt={project.project}/>
+                <div>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                    <div className="cardimg">
+                                    <div className="cardoverflowing">
+                                        <img src={require(`../../assets/images/portfolio/${project.image}`).default} alt={project.project}/>
+                                      </div>  
+                                    </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                    <h1>About Project</h1> 
+                                    <p>sdfghfdlgkhdf gkdhfkdfh skfhsfk sdf k sfhsdkf dfkdhf sdfh sdk fh s d  fsdh f kdfhsdkfhsd fhd f ksdhfdkfhk  kdfff sdf</p> 
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                </a>
+                        
+                </div>
                 <h3 className="orange">{project.project}</h3>
                 <div className="overflow">
                     <a href={project.github} target="_blank" rel="noreferrer">

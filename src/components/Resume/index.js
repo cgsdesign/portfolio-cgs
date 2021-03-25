@@ -1,6 +1,6 @@
 import React from "react";
 import resume from "../../assets/resume/resume.pdf"
-import gdportfolio from "../../assets/resume/gd-portfolio.pdf"
+import portfolio from "../../assets/resume/gd-portfolio.pdf"
 import "./resume.css"
 
 const Home = () => (
@@ -28,7 +28,7 @@ const Home = () => (
             <button>Download Full Resume</button>
           </a>
           {' '} 
-          <a href={gdportfolio} target="_blank" rel="noreferrer">
+          <a href={portfolio} target="_blank" rel="noreferrer">
             <button>Download Full Design Portfolio</button>
           </a>
   </section>

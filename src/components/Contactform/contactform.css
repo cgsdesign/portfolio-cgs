@@ -1,9 +1,9 @@
 .link-zone {display: flex;
-align-items: center;
-}
-
-.link-zone img {
-max-width:100px;
-padding: 0px 10px;
-border-radius: 0px;
-}
+    align-items: center;
+    }
+    
+    .link-zone img {
+    max-width:100px;
+    padding: 0px 10px;
+    border-radius: 0px;
+    }
