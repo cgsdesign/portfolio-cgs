@@ -49,7 +49,7 @@ button {
   font-weight: 400; 
   padding: 10px 20px;
   color: white;
-  background: var(--orange); 
+  background: var(--darkorange); 
   border: none;
   border-radius: 5px;
 }
@@ -57,7 +57,7 @@ button:hover {
   font-weight: 400; 
   padding: 10px 20px;
   color: white;
-  background: var(--darkorange); 
+  background: var(--orange); 
   border: none;
   border-radius: 3px;
 }

@@ -36,8 +36,8 @@ function Project() {
                                     </div>
                                     </div>
                                     <div class="flip-card-back">
-                                    <h1>About Project</h1> 
-                                    <p>sdfghfdlgkhdf gkdhfkdfh skfhsfk sdf k sfhsdkf dfkdhf sdfh sdk fh s d  fsdh f kdfhsdkfhsd fhd f ksdhfdkfhk  kdfff sdf</p> 
+                                    <h3>About {project.project}</h3>
+                                    <p>{project.description}</p> 
                                     </div>
                                 </div>
                             </div>
