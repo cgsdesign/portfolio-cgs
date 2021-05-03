@@ -38,15 +38,6 @@
     },
     {
         "id": 5,
-        "project": "Routes for Pizza Hunt",
-        "github": "https://github.com/cgsdesign/pizza-hunt",
-        "live": "https://pure-fjord-98565.herokuapp.com/",
-        "image": "pizzahunt.png",
-        "description": "Created backend using Node.js, MongoDB, Express and Mongoose for a pizza lover's chat site.",
-        "focus":"Backend with MongoDB" 
-    },
-    {
-        "id": 6,
         "project": "Budget Tracker Conversion",
         "github": "https://github.com/cgsdesign/budget-tracker",
         "live": "https://floating-fortress-49753.herokuapp.com/",
@@ -55,22 +46,13 @@
         "focus":"PWA with IndexedDB" 
     },
     {
-        "id": 7,
+        "id": 6,
         "project": "Daily Planner",
         "github": "https://github.com/cgsdesign/DailyPlanner",
         "live": "https://cgsdesign.github.io/DailyPlanner/",
         "image": "dailyPlanner.png",
         "description": "A Simple site to help you schedule your day.",
         "focus": "Front End"
-    },
-    {
-        "id": 8,
-        "project": "A Basic Portfolio",
-        "github": "https://github.com/cgsdesign/portfolio",
-        "live": "https://cgsdesign.github.io/portfolio/",
-        "image": "basicportfolio.png",
-        "description": "Simple CSS and HTML site, because sometimes that is all you need.",
-        "focus":"Front End" 
     }
        
 ]
