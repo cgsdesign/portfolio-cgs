@@ -56,15 +56,6 @@
         "image": "dailyPlanner.png",
         "description": "A Simple site to help you schedule your day.",
         "focus": "Front End"
-    },
-    {
-        "id": 7,
-        "project": "A Basic Portfolio",
-        "github": "https://github.com/cgsdesign/portfolio",
-        "live": "https://cgsdesign.github.io/portfolio/",
-        "image": "basicportfolio.png",
-        "description": "Simple CSS and HTML site, because sometimes that is all you need.",
-        "focus":"Front End" 
     }
        
 ]
