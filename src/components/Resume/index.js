@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/resume/resume.pdf"
+import resume from "../../assets/resume/CGSresume.pdf"
 import portfolio from "../../assets/resume/gd-portfolio.pdf"
 import "./resume.css"
 
@@ -14,7 +14,7 @@ const Home = () => (
           </p>
           <p>Tools: JQuery, Bootstrap, Node, Mongoose, Express, React, Handlebars
            </p>
-           <p> Speed & Resource Optomization 
+           <p> Speed & Resource Optimization 
           </p>   
           <h4>Digital Media:</h4>
           <p>  PhotoShop, InDesign, Illustrator, SketchUp, Word, Excel, Power Point
