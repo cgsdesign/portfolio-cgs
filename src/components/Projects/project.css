@@ -3,14 +3,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    width:100%;
 }
 .carded {
     background: whitesmoke;
     margin:20px;
     flex:1;
     padding: 0px;
-    min-width: 400px;
-    max-width: 600px;
+    min-width: 350px;
+    max-width: 500px;
     box-shadow: 5px 5px 7px grey;
     text-align:center;
 }
@@ -43,7 +44,6 @@
 
 .cardoverflowing{
     width:104%;
-    height:220px;
 }
 
 .overflow {
@@ -52,14 +52,7 @@
 a :hover{
     color: black;
 }
-@media only screen and (max-width: 1000px) {
-    .card {
-      min-width: 270px;
-    }
-    .carded {
-        min-width: 300px;
-    }
-    } 
+
 
 
     @-moz-keyframes spin {
@@ -116,11 +109,27 @@ a :hover{
       .flip-card-back {
         background-color: #ededed;
         color: black;
-        padding:20px;
-        font-size: 17px;
+        padding:15px;
+        font-size: 15px;
         transform: rotateY(180deg);
         overflow: auto;
       }
       .flip-card-back h3{
           color: var(--darkorange);
+          padding-bottom: 10px;
       }
+
+      @media only screen and (max-width: 1000px) {
+        .card {
+          min-width: 260px;
+        }
+        .carded {
+            min-width: 260px;
+        }
+        .flip-card {height: 190px;
+        }
+        .cardimg{
+            overflow: hidden;
+            height:190px;
+        } 
+    }

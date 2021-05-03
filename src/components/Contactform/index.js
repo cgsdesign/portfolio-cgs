@@ -8,8 +8,8 @@ function Contactform() {
   return (
     <section>
       <h3>Catherine G Sibley</h3>
-      <h3> Madison, IL</h3>
-      <h3> catherine.lea.graham@gmail.com</h3>
+      <h4> Madison, IL</h4>
+      <h4> catherine.lea.graham@gmail.com</h4>
       <br></br>
       <div className="link-zone">
       <a href="https://www.linkedin.com/in/catherine-sibley-93677926/" target="_blank" rel="noreferrer">
@@ -17,9 +17,9 @@ function Contactform() {
           </a>
           <a href="https://github.com/cgsdesign" target="_blank" rel="noreferrer">
               <img alt="github link" src={github} />
-          </a>   
+          {/* </a>   
           <a href="https://codepen.io/cgsdesign" target="_blank" rel="noreferrer">
-              <img alt="github link" src={codepen} />
+              <img alt="github link" src={codepen} /> */}
           </a>  
           </div> 
     </section>

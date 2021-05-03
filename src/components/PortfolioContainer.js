@@ -35,7 +35,6 @@ function Portfolio() {
           }
         </main>
       </div>
-      <Footer></Footer>
     </div>
   );
 }

@@ -52,6 +52,7 @@ button {
   background: var(--darkorange); 
   border: none;
   border-radius: 5px;
+  margin:5px 0px;
 }
 button:hover {
   font-weight: 400; 
@@ -111,6 +112,12 @@ main {
 .padlr {
   padding: 0px 20px 0px 20px;
 }
+.background {
+  padding: 10px;
+}
+.background-box {
+  padding: 10px;
+}
 } 
 
 /* 
@@ -124,6 +131,7 @@ main {
   display: flex;
   flex-direction: column;
   font-size: calc(14px + 1vmin);
+  width:100%;
 }
 
 .App-link {
