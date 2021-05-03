@@ -12,9 +12,6 @@ function Footer() {
             <a href="https://github.com/cgsdesign" target="_blank" rel="noreferrer">
                 <img alt="github link" src={github} />
             </a>   
-            <a href="https://codepen.io/cgsdesign" target="_blank" rel="noreferrer">
-                <img alt="github link" src={codepen} />
-            </a>   
         </footer>
     )
 }
