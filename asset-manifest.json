@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-cgs/static/css/main.1a089da2.chunk.css",
+    "main.css": "/portfolio-cgs/static/css/main.1b228614.chunk.css",
     "main.js": "/portfolio-cgs/static/js/main.c33b40d8.chunk.js",
     "main.js.map": "/portfolio-cgs/static/js/main.c33b40d8.chunk.js.map",
     "runtime-main.js": "/portfolio-cgs/static/js/runtime-main.d4519df1.js",
@@ -10,7 +10,7 @@
     "static/js/3.ff92cdaf.chunk.js": "/portfolio-cgs/static/js/3.ff92cdaf.chunk.js",
     "static/js/3.ff92cdaf.chunk.js.map": "/portfolio-cgs/static/js/3.ff92cdaf.chunk.js.map",
     "index.html": "/portfolio-cgs/index.html",
-    "static/css/main.1a089da2.chunk.css.map": "/portfolio-cgs/static/css/main.1a089da2.chunk.css.map",
+    "static/css/main.1b228614.chunk.css.map": "/portfolio-cgs/static/css/main.1b228614.chunk.css.map",
     "static/js/2.75f5954e.chunk.js.LICENSE.txt": "/portfolio-cgs/static/js/2.75f5954e.chunk.js.LICENSE.txt",
     "static/media/CGSresume.93c19d51.pdf": "/portfolio-cgs/static/media/CGSresume.93c19d51.pdf",
     "static/media/Catherine.444ef5a9.jpg": "/portfolio-cgs/static/media/Catherine.444ef5a9.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.d4519df1.js",
     "static/js/2.75f5954e.chunk.js",
-    "static/css/main.1a089da2.chunk.css",
+    "static/css/main.1b228614.chunk.css",
     "static/js/main.c33b40d8.chunk.js"
   ]
 }
