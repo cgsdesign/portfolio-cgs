@@ -1,0 +1,35 @@
+.design-portfolio-section {
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    text-align:center;
+    color:white;
+    background:black;
+
+}
+.portfolio-image img {
+    width:500px;
+    margin: auto;
+    padding-top:20px;
+}
+.web-portfolio-section {
+}
+
+@media only screen and (max-width: 950px) {
+    .portfolio-image img{
+        width:100%;
+    }
+    .design-portfolio-section {
+        width:100%;
+    }
+    .web-portfolio-section {
+        width:100%;
+    }
+}
+
+/* .flex-portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+} */

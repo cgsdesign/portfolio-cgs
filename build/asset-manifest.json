@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-cgs/static/css/main.7e186dbf.chunk.css",
-    "main.js": "/portfolio-cgs/static/js/main.c33b40d8.chunk.js",
-    "main.js.map": "/portfolio-cgs/static/js/main.c33b40d8.chunk.js.map",
-    "runtime-main.js": "/portfolio-cgs/static/js/runtime-main.d4519df1.js",
-    "runtime-main.js.map": "/portfolio-cgs/static/js/runtime-main.d4519df1.js.map",
+    "main.js": "/portfolio-cgs/static/js/main.22da2ea5.chunk.js",
+    "main.js.map": "/portfolio-cgs/static/js/main.22da2ea5.chunk.js.map",
+    "runtime-main.js": "/portfolio-cgs/static/js/runtime-main.d07add53.js",
+    "runtime-main.js.map": "/portfolio-cgs/static/js/runtime-main.d07add53.js.map",
     "static/js/2.75f5954e.chunk.js": "/portfolio-cgs/static/js/2.75f5954e.chunk.js",
     "static/js/2.75f5954e.chunk.js.map": "/portfolio-cgs/static/js/2.75f5954e.chunk.js.map",
-    "static/js/3.ff92cdaf.chunk.js": "/portfolio-cgs/static/js/3.ff92cdaf.chunk.js",
-    "static/js/3.ff92cdaf.chunk.js.map": "/portfolio-cgs/static/js/3.ff92cdaf.chunk.js.map",
+    "static/js/3.2424d401.chunk.js": "/portfolio-cgs/static/js/3.2424d401.chunk.js",
+    "static/js/3.2424d401.chunk.js.map": "/portfolio-cgs/static/js/3.2424d401.chunk.js.map",
     "index.html": "/portfolio-cgs/index.html",
     "static/css/main.7e186dbf.chunk.css.map": "/portfolio-cgs/static/css/main.7e186dbf.chunk.css.map",
     "static/js/2.75f5954e.chunk.js.LICENSE.txt": "/portfolio-cgs/static/js/2.75f5954e.chunk.js.LICENSE.txt",
@@ -19,6 +19,7 @@
     "static/media/HowToHelp.png": "/portfolio-cgs/static/media/HowToHelp.19f9fbd2.png",
     "static/media/WeatherDash.png": "/portfolio-cgs/static/media/WeatherDash.062be1c5.png",
     "static/media/WoodlandConsulting.png": "/portfolio-cgs/static/media/WoodlandConsulting.d2586777.png",
+    "static/media/accelentertainment.png": "/portfolio-cgs/static/media/accelentertainment.887585f0.png",
     "static/media/basicportfolio.png": "/portfolio-cgs/static/media/basicportfolio.12fc3304.png",
     "static/media/budgettracker.png": "/portfolio-cgs/static/media/budgettracker.bfb8b314.png",
     "static/media/cgsibleydesign.png": "/portfolio-cgs/static/media/cgsibleydesign.17c5c591.png",
@@ -32,9 +33,9 @@
     "static/media/shadow2.6f5308b6.png": "/portfolio-cgs/static/media/shadow2.6f5308b6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4519df1.js",
+    "static/js/runtime-main.d07add53.js",
     "static/js/2.75f5954e.chunk.js",
     "static/css/main.7e186dbf.chunk.css",
-    "static/js/main.c33b40d8.chunk.js"
+    "static/js/main.22da2ea5.chunk.js"
   ]
 }

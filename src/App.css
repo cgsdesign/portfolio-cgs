@@ -23,7 +23,7 @@ body {
 p {
   padding-bottom:10px;
   font-weight: 400;
-  font-size: calc(.8em + .2vw);
+  font-size: calc(.7em + .1vw);
 }
 h1 {
   font-family: 'Barlow Condensed', sans-serif;

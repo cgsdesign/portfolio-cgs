@@ -10,8 +10,8 @@
     margin:20px;
     flex:1;
     padding: 0px;
-    min-width: 400px;
-    max-width: 550px;
+    min-width: 350px;
+    max-width: 520px;
     box-shadow: 5px 5px 7px grey;
     text-align:center;
 }
