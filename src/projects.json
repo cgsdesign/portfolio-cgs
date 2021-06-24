@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "project": "Accel Entertaiment",
+        "live": "https://www.accelentertainment.com/pennsylvania-video-gaming",
+        "image": "accelentertainment.png",
+        "description": "Accel Entertainment is the the largest terminal operator in the US. I have been working on their site since 2017. While serving as digital design lead, the website saw a 200% increase in web traffic and lead generation.",
+        "about": "Using Hubspot, I am incharge or creating all custom coded modules and various page designs.",
+        "focus":"Hubspot, HTML, CSS, UI/UX" 
+    },
+    {
+        "id": 2,
         "project": "Woodland Consulting LLC",
         "github": "https://github.com/SMKrizan/WoodlandConsultingLLC",
         "live": "https://woodland-consulting.herokuapp.com/",
@@ -10,43 +19,33 @@
         "focus":"MERN Stack" 
     },
     {
-        "id": 2,
+        "id": 3,
         "project": "TableTop Rulers",
         "github": "https://github.com/cgsdesign/table-top-resource",
         "live": "https://cgsdesign.github.io/table-top-resource/",
         "image": "DnD.png",
         "description": "This Dungeons & Dragons one stop shop provides everything from rules and resources to world building, dice rolling, and scheduling tools needs for GM play.",
-        "focus": "Front End"
+        "focus": "HTML, CSS, Javascript"
     },
     {
-        "id": 3,
+        "id": 4,
         "project": "TableTop Rulers - Map",
         "github": "https://github.com/cgsdesign/table-top-resource",
         "live": "https://cgsdesign.github.io/table-top-resource/maps.html",
         "image": "dndmap.png",
         "description": "A fun interactive map for live game play and game play prep made with JS HTMP and CSS.",
         "about": "Using the map section you will be able to download maps or go to another page where you can build your map. Design your map any way you would like with monsters, and terrain. You can then download your map or play live on the page with your players.",
-        "focus": "Front End Interactive"
+        "focus": "HTML, CSS, Javascript"
     },
     {
-        "id": 4,
+        "id": 5,
         "project": "HowTo.Help",
         "github": "https://github.com/geigea84/how-to-dot-help",
         "live": "https://how-to-dot-help.herokuapp.com/",
         "image": "HowToHelp.png",
-        "description": "How-To-Dot-Help is a website portal connecting potential volunteers with smaller organizations that are looking for the additional help. Users can learn about connected non-for-profits, create bios and send their information to NFPs they want to voluteer for. The site features a MySQL database and two portals based on admin and general user logins.",
+        "description": "How-To-Dot-Help is a website portal connecting potential volunteers with smaller organizations that are looking for the additional help. Users can learn about connected non-for-profits, create bios and send their information to NFPs they want to voluteer for. The site features a MySQL database and two portals based on admin and general user logins. - Still in Beta for UX Review",
         "about": "How-To-Dot-Help is a website portal connecting potential volunteers with smaller organizations that are looking for the additional help. On this website, users will be able to create an account protected by modern security features and indicate which organizations they may be interested in volunteering for. On the other side of the platform the staff of How To Dot Help will connect these prospective volunteers with the organization via phone, email, or text message depending on the method selected by the volunteer.",
         "focus": "Full Stack"
-    },
-    {
-        "id": 5,
-        "project": "Budget Tracker Conversion",
-        "github": "https://github.com/cgsdesign/budget-tracker",
-        "live": "https://floating-fortress-49753.herokuapp.com/",
-        "image": "budgettracker.png",
-        "description": "Worked with IndexedDB, Service-Worker, Manifest, MongoDB Atlas and Heroku to make the existing BudgetTracker code into a live PWA with offline capabilities hosted on Heroku.",
-        "about": "For this project I worked with IndexedDB, Service-Worker, Manifest, MongoDB Atlas and Heroku to make the existing BudgetTracker code into a live PWA with offline capabilities hosted on Heroku.",
-        "focus":"PWA with IndexedDB" 
     },
     {
         "id": 6,
@@ -55,7 +54,7 @@
         "live": "https://cgsdesign.github.io/DailyPlanner/",
         "image": "dailyPlanner.png",
         "description": "A Simple site to help you schedule your day.",
-        "focus": "Front End"
+        "focus": "HTML, CSS, Javascript"
     }
        
 ]
